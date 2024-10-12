@@ -245,6 +245,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				"HEADER_SEARCH_PATHS[arch=*]" = /opt/homebrew/include/GL;
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /opt/homebrew/lib;
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-lGLEW",
+					"-lGLUT",
+					"-framework",
+					OpenGL,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -253,6 +261,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				"HEADER_SEARCH_PATHS[arch=*]" = /opt/homebrew/include/GL;
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /opt/homebrew/lib;
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-lGLEW",
+					"-lGLUT",
+					"-framework",
+					OpenGL,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
