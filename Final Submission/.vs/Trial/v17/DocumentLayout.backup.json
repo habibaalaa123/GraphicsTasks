@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\College\\Third year\\First Term\\graphics\\Task 1\\GraphicsTasks\\Final Submission\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9061A729-891C-4E51-995B-7FEB41E597F8}|Trial.vcxproj|D:\\College\\Third year\\First Term\\graphics\\Task 1\\GraphicsTasks\\Final Submission\\Trial.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9061A729-891C-4E51-995B-7FEB41E597F8}|Trial.vcxproj|solutionrelative:Trial.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9061A729-891C-4E51-995B-7FEB41E597F8}|Trial.vcxproj|D:\\College\\Third year\\First Term\\graphics\\Task 1\\GraphicsTasks\\Final Submission\\Graphics.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9061A729-891C-4E51-995B-7FEB41E597F8}|Trial.vcxproj|solutionrelative:Graphics.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Graphics.cpp",
+              "DocumentMoniker": "D:\\College\\Third year\\First Term\\graphics\\Task 1\\GraphicsTasks\\Final Submission\\Graphics.cpp",
+              "RelativeDocumentMoniker": "Graphics.cpp",
+              "ToolTip": "D:\\College\\Third year\\First Term\\graphics\\Task 1\\GraphicsTasks\\Final Submission\\Graphics.cpp",
+              "RelativeToolTip": "Graphics.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-12T11:32:12.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Trial.cpp",
+              "DocumentMoniker": "D:\\College\\Third year\\First Term\\graphics\\Task 1\\GraphicsTasks\\Final Submission\\Trial.cpp",
+              "RelativeDocumentMoniker": "Trial.cpp",
+              "ToolTip": "D:\\College\\Third year\\First Term\\graphics\\Task 1\\GraphicsTasks\\Final Submission\\Trial.cpp",
+              "RelativeToolTip": "Trial.cpp",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAqwK0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-11T22:27:48.034Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

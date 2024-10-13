@@ -1,0 +1,15 @@
+﻿  Graphics.cpp
+  Trial.cpp
+D:\College\Third year\First Term\graphics\Task 1\GraphicsTasks\Final Submission\Trial.cpp(47,29): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+D:\College\Third year\First Term\graphics\Task 1\GraphicsTasks\Final Submission\Trial.cpp(48,29): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+D:\College\Third year\First Term\graphics\Task 1\GraphicsTasks\Final Submission\Trial.cpp(73,23): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+D:\College\Third year\First Term\graphics\Task 1\GraphicsTasks\Final Submission\Trial.cpp(73,17): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+D:\College\Third year\First Term\graphics\Task 1\GraphicsTasks\Final Submission\Trial.cpp(73,12): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+D:\College\Third year\First Term\graphics\Task 1\GraphicsTasks\Final Submission\Trial.cpp(77,24): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+D:\College\Third year\First Term\graphics\Task 1\GraphicsTasks\Final Submission\Trial.cpp(77,18): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+D:\College\Third year\First Term\graphics\Task 1\GraphicsTasks\Final Submission\Trial.cpp(77,12): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+D:\College\Third year\First Term\graphics\Task 1\GraphicsTasks\Final Submission\Trial.cpp(80,24): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+D:\College\Third year\First Term\graphics\Task 1\GraphicsTasks\Final Submission\Trial.cpp(80,18): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+D:\College\Third year\First Term\graphics\Task 1\GraphicsTasks\Final Submission\Trial.cpp(80,12): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  Generating Code...
+  Trial.vcxproj -> D:\College\Third year\First Term\graphics\Task 1\GraphicsTasks\Final Submission\Debug\Trial.exe
