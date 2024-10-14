@@ -113,6 +113,42 @@ void drawFlag(int base_x, int base_y, int base_z, float scale) {
     glEnd();
 }
 
+void drawRoverBody(float width, float height)
+{
+    glPushMatrix();
+    glColor3f(0.5f, 0.5f, 0.5f);
+    glBegin(GL_QUADS);
+        glVertex2f(-width / 2.0f, -height / 2.0f); // Bottom-left corner
+        glVertex2f(width / 2.0f, -height / 2.0f);  // Bottom-right corner
+        glVertex2f(width / 2.0f, height / 2.0f);   // Top-right corner
+        glVertex2f(-width / 2.0f, height / 2.0f);  // Top-left corner
+    glEnd();
+    glPopMatrix();    
+}
+
+void drawwheels(float roverWidth, float roverHeight, float radius)
+{
+    float wheelPositions[2][2] = {
+        { roverWidth / 2.5f, -roverHeight / 2.0f - radius},
+        {-roverWidth / 2.5f, -roverHeight / 2.0f - radius}
+    };
+
+    for (int i = 0; i < 2; ++i) {
+        glPushMatrix();
+        glTranslatef(wheelPositions[i][0], wheelPositions[i][1], 0.0f);
+        drawCircle(0.0f, 0.0f, radius, 32, 1.0f); // Draw a circle with the specified radius
+        glPopMatrix();
+    }
+}
+
+void drawRover(float width, float height, float wheelRadius)
+{
+    glPushMatrix();
+    glTranslatef(220.0f, 70.0f, 0.0f);
+    drawRoverBody(width, height);
+    drawwheels(width, height, wheelRadius); 
+    glPopMatrix();
+}
 
 // Drawing routine.
 void drawScene(void)
@@ -138,6 +174,8 @@ void drawScene(void)
     glEnd();
     
     drawFlag(180, 70, 15, 2);
+
+    drawRover(200.0f, 50.0f, 20.0f);
 
     // execute the drawing
     glFlush();
