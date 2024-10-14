@@ -64,14 +64,14 @@ void drawRectangle(float x1, float y1, float x2, float y2) {
     glEnd();
 }
 
-void drawFlag(int base_x, int base_y, int base_z) {
+void drawFlag(int base_x, int base_y, int base_z, float scale) {
     // Pole
     glBegin(GL_QUADS);
         glColor3f(0.5f, 0.35f, 0.5f);
-        glVertex3d(base_x + 60, base_y + 0, base_z);
-        glVertex3d(base_x + 62, base_y + 0, base_z);
-        glVertex3d(base_x + 62, base_y + 40, base_z);
-        glVertex3d(base_x + 60, base_y + 40, base_z);
+        glVertex3d(base_x, base_y, base_z);
+        glVertex3d(base_x + 2 * scale, base_y, base_z);
+        glVertex3d(base_x + 2 * scale, base_y + 40 * scale, base_z);
+        glVertex3d(base_x, base_y + 40 * scale, base_z);
     glEnd();
     
     // Palestine's Flag
@@ -80,36 +80,36 @@ void drawFlag(int base_x, int base_y, int base_z) {
     // Green rectangle
     glBegin(GL_QUADS);
         glColor3f(0.08f, 0.6f, 0.33f);
-        glVertex3d(base_x + 62, base_y + 25, base_z);
-        glVertex3d(base_x + 89, base_y + 25, base_z);
-        glVertex3d(base_x + 89, base_y + 29, base_z);
-        glVertex3d(base_x + 62, base_y + 29, base_z);
+        glVertex3d(base_x + 2 * scale, base_y + 25 * scale, base_z);
+        glVertex3d(base_x + 29 * scale, base_y + 25 * scale, base_z);
+        glVertex3d(base_x + 29 * scale, base_y + 29 * scale, base_z);
+        glVertex3d(base_x + 2 * scale, base_y + 29 * scale, base_z);
     glEnd();
     
     // White rectangle
     glBegin(GL_QUADS);
         glColor3f(1, 1, 1);
-        glVertex3d(base_x + 62, base_y + 29, base_z);
-        glVertex3d(base_x + 89, base_y + 29, base_z);
-        glVertex3d(base_x + 89, base_y + 33, base_z);
-        glVertex3d(base_x + 62, base_y + 33, base_z);
+        glVertex3d(base_x + 2 * scale, base_y + 29 * scale, base_z);
+        glVertex3d(base_x + 29 * scale, base_y + 29 * scale, base_z);
+        glVertex3d(base_x + 29 * scale, base_y + 33 * scale, base_z);
+        glVertex3d(base_x + 2 * scale, base_y + 33 * scale, base_z);
     glEnd();
     
     // Black rectangle
     glBegin(GL_QUADS);
         glColor3f(0, 0, 0);
-        glVertex3d(base_x + 62, base_y + 33, base_z);
-        glVertex3d(base_x + 89, base_y + 33, base_z);
-        glVertex3d(base_x + 89, base_y + 37, base_z);
-        glVertex3d(base_x + 62, base_y + 37, base_z);
+        glVertex3d(base_x + 2 * scale, base_y + 33 * scale, base_z);
+        glVertex3d(base_x + 29 * scale, base_y + 33 * scale, base_z);
+        glVertex3d(base_x + 29 * scale, base_y + 37 * scale, base_z);
+        glVertex3d(base_x + 2 * scale, base_y + 37 * scale, base_z);
     glEnd();
     
     // Red triangle
     glBegin(GL_TRIANGLES);
         glColor3f(0.89f, 0.19f, 0.17f);
-        glVertex3d(base_x + 62, base_y + 25, base_z + 1);
-        glVertex3d(base_x + 72, base_y + 31, base_z + 1);
-        glVertex3d(base_x + 62, base_y + 37, base_z + 1);
+        glVertex3d(base_x + 2 * scale, base_y + 25 * scale, base_z + 1);
+        glVertex3d(base_x + 12 * scale, base_y + 31 * scale, base_z + 1);
+        glVertex3d(base_x + 2 * scale, base_y + 37 * scale, base_z + 1);
     glEnd();
 }
 
@@ -137,7 +137,7 @@ void drawScene(void)
 
     glEnd();
     
-    drawFlag(350, 100, 15);
+    drawFlag(180, 70, 15, 2);
 
     // execute the drawing
     glFlush();
