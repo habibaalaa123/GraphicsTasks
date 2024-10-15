@@ -165,7 +165,7 @@ void drawwheels(float roverWidth, float roverHeight, float radius)
 void drawRover(float width, float height, float wheelRadius)
 {
     glPushMatrix();
-    glTranslatef(220.0f, 70.0f, 0.0f);
+    glTranslatef(110.0f, 70.0f, 0.0f);
     drawRoverBody(width, height);
     drawwheels(width, height, wheelRadius);
     glPopMatrix();
